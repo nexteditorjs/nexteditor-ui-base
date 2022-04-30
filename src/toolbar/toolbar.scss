@@ -1,0 +1,39 @@
+.editor-toolbar {
+  pointer-events: all;
+  display: flex;
+  box-sizing: border-box;
+  --primary-color: #FF1A75;
+
+  .editor-button {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AAAAAA;
+    width: 28px;
+    height: 28px;
+    padding: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #444444;
+    }
+
+    &.checked {
+      color: var(--primary-color);
+    }
+  }
+
+  .editor-button + .editor-button {
+    margin-left: 8px;
+  }
+  
+  span.editor-separator.vertical {
+    margin: auto 8px;
+    height: 20px;
+    width: 1px;
+    background-color: #666;
+  }
+}
