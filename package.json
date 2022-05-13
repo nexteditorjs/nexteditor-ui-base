@@ -17,7 +17,7 @@
     "tippy.js": "^6.3.7"
   },
   "devDependencies": {
-    "@types/node": "^12.0.0",
+    "@types/node": "*",
     "sass": "*",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
